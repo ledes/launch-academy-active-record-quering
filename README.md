@@ -30,4 +30,4 @@ Recipe.where(id: id_last_comment)
 
 7)How would you return all comments that include the string brussels in them?
 
-all_comments = Comment.where("body ILIKE ?", "brussels")
+all_comments = Comment.where("body ILIKE ?", "%brussels%")
